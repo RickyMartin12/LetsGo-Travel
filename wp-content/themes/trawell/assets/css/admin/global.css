@@ -1,0 +1,111 @@
+/* Admin options */
+input.trawell-hidden,
+.trawell-hidden {
+    display: none;
+}
+
+img.trawell-img-select {
+    border: 2px solid #eee;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #fff;
+    max-width: 100%;
+    -webkit-backface-visibility: hidden;
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+img.trawell-img-select.selected {
+    border: 2px solid #0074a2;
+}
+
+ul.trawell-img-select-wrap {
+    width: 100%;
+    display: flex;
+    margin: 5px 0;
+    flex-wrap: wrap;
+}
+
+ul.trawell-img-select-wrap li {
+    margin-right: 9px;
+    width: auto;
+    max-width: 92px;
+}
+
+#trawell-pagination-metaboxes .trawell-img-select-wrap li span,
+#trawell-pagination-metaboxes ul.trawell-img-select-wrap li{
+    max-width: 184px;
+}
+
+.trawell-disabled {
+    opacity: 0.3;
+}
+
+.trawell-img-select-wrap li span {
+    font-size: 11px;
+    display: block;
+    text-align: center;
+    line-height: 13px;
+}
+
+/* Category options */
+
+.trawell-rec-color{
+    width: 20px; 
+    height: 20px;
+    float: left; 
+    margin-right:3px; 
+    border: 1px solid #aaa;
+}
+
+#trawell-color-wrap {
+    margin-top: 15px;
+}
+
+.form-field input.trawell-small-text{
+    width: 50px;
+}
+
+
+/* Welcome panel */
+
+.welcome-panel.trawell-welcome-panel {
+    margin: 33px 20px 0 0;
+    padding-bottom: 30px;
+}
+
+.welcome-panel.trawell-welcome-panel .welcome-panel-column,
+.welcome-panel.trawell-welcome-panel .welcome-panel-column:first-child {
+    max-width: 330px;
+    margin-right: 40px;
+}
+
+.trawell-customize-welcome {
+    margin-top: 24px;
+    display: inline-block;
+}
+
+/* Widgets */
+.trawell-widget-content-sortable label{
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#trawell_footer_sidebar_1 .trawell-opt-highlight,
+#trawell_footer_sidebar_2 .trawell-opt-highlight,
+#trawell_footer_sidebar_3 .trawell-opt-highlight,
+#trawell_footer_sidebar_4 .trawell-opt-highlight,
+#trawell_footer_sidebar_1 .trawell-opt-no-padding,
+#trawell_footer_sidebar_2 .trawell-opt-no-padding,
+#trawell_footer_sidebar_3 .trawell-opt-no-padding,
+#trawell_footer_sidebar_4 .trawell-opt-no-padding { 
+    display: none; 
+}

@@ -1,0 +1,1 @@
+<?php echo hybrid_media_grabber(array('type' => 'video', 'split_media' => true, 'before' => '<div class="entry-media">', 'after' => '</div>')); ?>

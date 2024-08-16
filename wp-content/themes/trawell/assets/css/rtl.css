@@ -1,0 +1,1145 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td,
+nav,
+a {
+    direction: rtl;
+    unicode-bidi: inherit;
+}
+.menu-main .sub-menu .menu-item-has-children>a:after {
+    content: "\1097c";
+}
+.trawell-top-bar .container,
+.trawell-header .container,
+.trawell-top-bar .trawell-slot-l,
+.trawell-top-bar .trawell-slot-r,
+.trawell-slot-from-center{
+    direction: ltr;
+}
+.entry-content > ul ul, .entry-content > ol ol, .entry-content > ul ol, .entry-content > ol ul, .comment-content > ul ul, .comment-content > ul ol, .comment-content > ol ul, .comment-content > ol ol{
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+blockquote{
+    padding: 0 50px 0 0 ;
+    border-right: 0;
+    border-left: none;
+}
+
+
+
+.trawell-calendar i{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.trawell-top-bar .menu-item-has-children > a:after{
+    margin: 0 5px 0 0 ;
+}
+
+.trawell-top-bar .sub-menu{
+    right: 0;
+    left: auto;
+}
+
+.trawell-slot-r .trawell-soc-menu + ul{
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+
+.trawell-top-bar .trawell-slot-l .menu-pre-footer-menu-container{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.trawell-header-indent .trawell-cover:before, .trawell-cover.trawell-cover-slider .owl-stage-outer .trawell-cover-item:before{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 100% #000000 100%);
+    right: 0;
+    left: auto;
+}
+
+.trawell-header nav + ul{
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.trawell-slot-l .trawell-site-branding + nav{
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.trawell-slot-from-center > nav:first-of-type, .trawell-slot-from-center > ul:first-of-type{
+    text-align: left;
+}
+
+.trawell-slot-from-center > nav:last-of-type, .trawell-slot-from-center > ul:last-of-type{
+    text-align: right;
+}
+
+
+@media (max-width: 1023px){
+    .trawell-header nav + ul{
+        margin-right: 7px;
+        margin-left: 0;
+    }
+
+    .trawell-layout-d1 .element-pos-bottom,  .element-pos-bottom{
+        right: 30px;
+        left: auto;
+    }
+
+    .trawell-layout-d3 .element-pos-bottom,  .trawell-layout-cat-d4 .element-pos-bottom{
+        right: 25px;
+        left: auto;
+    }
+
+    .trawell-layout-d4 .element-pos-bottom{
+        right: 20px;
+        left: auto;
+    }
+
+    .trawell-layout-d3 .entry-title{
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
+    .trawell-actions .trawell-hamburger{
+        padding-left: 0;
+    }
+
+
+    body .md-entry-meta-small span + span{
+        margin: 0 8px 0 0 ;
+    }
+
+    body .md-entry-meta-small span + span:before{
+        margin-left: 8px;
+        margin-right: 0;
+    }
+
+}
+
+body .trawell-header-sticky{
+    right: 0;
+    left: auto;
+}
+
+.archive-heading input[type="text"]{
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.element-pos-bottom{
+    right: 40px;
+    left: auto;
+}
+
+.element-pos-top{
+    right: 60px;
+    left: auto;
+}
+
+.element-pos-center{
+    right: 0;
+    left: auto;
+}
+
+.entry-meta span + span{
+    margin: 0 15px 0 0 ;
+}
+
+.entry-meta span + span:before{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.entry-header .entry-meta span{
+    display: inline-block;
+}
+
+.trawell-item .entry-meta span + span{
+    margin: 0 10px 0 0 ;
+}
+
+.trawell-item .entry-meta span + span:before{
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.entry-category a, .entry-category span{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.entry-category a + a{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.pill-small.entry-category a, .pill-small.entry-category a + a, .pill-small.entry-category span{
+    margin-left: 3px;
+    margin-right: 0;
+}
+
+.pill-small .fa-music:before{
+    margin-left: 1px;
+    margin-right: 0;
+}
+
+.item-overlay .entry-category a:only-of-type{
+    margin-left: 0;
+}
+
+.pill-small a + a{
+    margin-right: 0;
+}
+
+.color-text a, .color-text span{
+    margin: 0 0 0 5px ;
+}
+
+.trawell-numbers-meta{
+    margin-right: 13px;
+    margin-left: 0;
+}
+
+.trawell-lock{
+    padding-right: 0;
+}
+
+.trawell-body-overlay{
+    left: 0;
+    right: 0;
+}
+
+.trawell-img-diagonal .entry-image, .trawell-img-diagonal .item-overlay .entry-image:after, .trawell-img-diagonal .trawell-category-placeholder, .trawell-img-diagonal div[class*=trawell-layout-cat-] .trawell-item{
+    border-radius: 0 10px 0 10px;
+}
+
+.trawell-widget-diagonal .widget{
+    border-radius: 0 10px 0 10px;
+}
+
+.trawell-cover img{
+    right: 0;
+    left: auto;
+}
+
+
+
+.trawell-cover-slider .owl-nav{
+    right: 50%;
+    left: auto;
+    margin-right: -600px;
+    margin-left: 0;
+}
+
+.entry-media .gallery .owl-nav .owl-prev{
+    right: 15px;
+    left: auto;
+}
+
+.entry-media .gallery .owl-nav .owl-next{
+    left: 15px;
+    right: auto;
+}
+
+.trawell-cover-video-item{
+    right: 0;
+    left: auto;
+}
+
+.trawell-cover-video-item video{
+    right: 0;
+    left: auto;
+}
+
+.trawell-cover .wp-caption-text:after{
+    right: 50%;
+    left: auto;
+    margin-right: -15px;
+    margin-left: 0;
+}
+
+.trawell-item a.entry-image img{
+    right: 0;
+    left: auto;
+}
+
+.item-overlay .entry-image:after, .trawell-overlay{
+    right: 0;
+    left: auto;
+}
+
+.trawell-item-gradient .entry-image:after{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 100% #000000 100%);
+}
+
+.trawell-layout-d1 .element-pos-bottom{
+    right: 60px;
+    left: auto;
+}
+
+.trawell-layout-d2 .element-pos-bottom{
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.trawell-layout-d3 .element-pos-bottom{
+    right: 30px;
+    left: auto;
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.trawell-layout-d4 .element-pos-bottom{
+    right: 20px;
+    left: auto;
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.trawell-has-sidebar .trawell-main .trawell-layout-d1 .element-pos-bottom{
+    right: 50px;
+    left: auto;
+}
+
+.trawell-has-sidebar .trawell-main .trawell-layout-d2 .element-pos-bottom{
+    right: 30px;
+    left: auto;
+}
+
+.trawell-has-sidebar .trawell-main .trawell-layout-d3 .element-pos-bottom{
+    right: 25px;
+    left: auto;
+    padding-left: 25px;
+    padding-right: 0;
+}
+
+.trawell-has-sidebar .trawell-main .trawell-layout-cat-d3 .element-pos-bottom{
+    right: 30px;
+    left: auto;
+}
+
+.trawell-has-sidebar .trawell-main .trawell-layout-cat-d4 .element-pos-bottom{
+    right: 25px;
+    left: auto;
+}
+
+.trawell-layout-cat-d4 .element-pos-bottom{
+    right: 30px;
+    left: auto;
+}
+
+.trawell-item.cat-item:after{
+    right: 0;
+    left: auto;
+}
+
+.trawell-item .trawell-category-placeholder, .trawell-cover-color .trawell-category-placeholder{
+    right: 0;
+    left: auto;
+}
+
+
+
+.widget-mini .entry-meta span{
+    margin: 0 0 10px 0 ;
+}
+
+.widget-mini .entry-tags a{
+    margin-left: 3px;
+    margin-right: 0;
+}
+
+.trawell-author img{
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.trawell-author .excerpt-small{
+    margin-right: 170px;
+    margin-left: 0;
+}
+
+.trawell-author .trawell-button-medium{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.entry-content .trawell-paginated a:not(.trawell-button), .entry-content .trawell-paginated > span{
+    background: right  0;
+}
+
+.trawell-share{
+    margin-right: -3px;
+    margin-left: -3px;
+}
+
+.trawell-share a{
+    margin-right: 3px;
+    margin-left: 0;
+}
+
+.menu-main ul:not(.trawell-soc-menu), .trawell-actions ul:not(.trawell-soc-menu){
+    right: 0;
+    left: auto;
+}
+
+.menu-main ul:not(.trawell-soc-menu) li a, .trawell-actions ul:not(.trawell-soc-menu) li a{
+    text-align: right;
+}
+
+.menu-main > li ul:not(.trawell-soc-menu) ul{
+    right: 100%;
+    left: auto;
+}
+
+.menu-main > li.menu-item-has-children > a:after{
+    margin: 0 7px 0 0 ;
+}
+
+.menu-main .sub-menu .menu-item-has-children > a:after{
+    float: left;
+    margin: 0 7px 0 0 ;
+}
+
+.trawell-actions > li > span, .trawell-actions > li > a, .trawell-actions .trawell-soc-menu li a{
+    border-radius: 3px 3px 0 0;
+}
+
+.trawell-actions .active > .sub-menu{
+    left: 0;
+    right: auto;
+}
+
+.trawell-actions-button .trawell-social-name{
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.trawell-cart-count{
+    margin-left: 1px;
+    margin-right: 0;
+    left: 0;
+    right: auto;
+}
+
+.trawell-hamburger span, .trawell-action-close span{
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+.trawell-action-close{
+    left: 20px;
+    right: auto;
+}
+
+.trawell-menu-posts .entry-image{
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.trawell-header li ul.trawell-rev{
+    right: auto!important;
+    left: 0;
+}
+
+.trawell-header li .sub-menu ul.trawell-rev{
+    right: auto!important;
+    left: 100%;
+}
+
+ul.menu-main .trawell-mega-menu > .sub-menu{
+    right: 30px;
+    left: auto;
+}
+
+ul.menu-main .trawell-mega-menu .sub-menu > li a{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+ul.menu-main .trawell-mega-menu > .sub-menu > li{
+    padding-left: 25px;
+    padding-right: 0;
+}
+
+ul.menu-main .trawell-mega-menu > .sub-menu > li:last-child{
+    padding-left: 0;
+}
+
+ul.menu-main .trawell-mega-menu .sub-menu > li:hover .sub-menu, ul.menu-main .trawell-mega-menu .sub-menu .sub-menu{
+    right: 0;
+    left: auto;
+}
+
+.alignright{
+    float: left;
+    margin-right: 25px;
+    margin-left: 0;
+}
+
+.alignleft{
+    float: right;
+    margin-left: 25px;
+    margin-right: 0;
+}
+
+.sticky .entry-title a:before{
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.gallery-item{
+    padding: 0 0 1px 1px ;
+}
+
+.gallery-caption{
+    text-align: right;
+    padding: 0 0 0 10px ;
+}
+
+.success, .error, #usp-success-message{
+    float: right;
+}
+
+span.wpcf7-not-valid-tip{
+    left: 12px;
+    right: auto;
+}
+
+.widget .menu-item-has-children .trawell-accordion-nav, .widget .page_item_has_children .trawell-accordion-nav, .widget .cat-parent .trawell-accordion-nav{
+    left: -10px;
+    right: auto;
+}
+
+.widget_categories .count{
+    left: 0;
+    right: auto;
+}
+
+.widget_calendar table tfoot tr #next{
+    text-align: left;
+}
+
+.widget_calendar table caption{
+    left: 30px;
+    right: auto;
+}
+
+.widget_calendar #today:after{
+    right: 50%;
+    left: auto;
+    margin: -15px -15px 0 0 ;
+}
+
+.trawell_posts_widget .entry-image{
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.trawell_posts_widget .trawell-item .entry-meta span + span{
+    margin: 0 5px 0 0 ;
+}
+
+.trawell_posts_widget .trawell-item .entry-meta span + span:before{
+    margin-left: 5px;
+}
+
+.menu-pre-footer-menu-container{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.trawell-pre-footer .menu{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.trawell-pre-footer .menu li a{
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: none;
+}
+
+.trawell-pre-footer .menu li:first-child a{
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: none;
+}
+
+.trawell-cover .trawell-button + .trawell-button{
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.form-submit{
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.comment-author img{
+    float: right;
+    margin-left: 25px;
+    margin-right: 0;
+}
+
+.comment-content{
+    margin-right: 85px;
+    margin-left: 0;
+}
+
+.comment-reply-link{
+    margin-right: 85px;
+    margin-left: 0;
+}
+
+.comment > .children{
+    padding: 0 85px 0 0 ;
+}
+
+.pingback .comment-content{
+    margin-right: 0;
+}
+
+.comment-respond .section-title + small{
+    left: 0;
+    right: auto;
+    padding-right: 5px;
+    padding-left: 0;
+}
+
+.bypostauthor .fn:after{
+    margin-right: 7px;
+    margin-left: 0;
+}
+
+.trawell-pagination a.next{
+    left: 0;
+    right: auto;
+}
+
+.trawell-pagination a.prev{
+    right: 0;
+    left: auto;
+}
+
+.trawell-loader{
+    margin-right: -25px;
+    margin-left: 0;
+    right: 50%;
+    left: auto;
+}
+
+.double-bounce1, .double-bounce2{
+    right: 0;
+    left: auto;
+}
+
+.trawell-link-pages{
+    text-align: right;
+}
+
+.no-left-padding{
+    padding-right: 0;
+}
+
+.trawell-breadcrumbs-center .trawell-breadcrumbs:after{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mks-map-entry-meta > span + span:before{
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.mks-map-entry-meta span + span:before{
+    margin-left: 10px;
+    margin-right: 0;
+}
+.trawell-main{
+    direction: ltr;
+}
+
+#mc_embed_signup_scroll div[aria-hidden="true"]{
+    left: auto !important;
+    right: -5000px;
+}
+
+
+@media (max-width: 729px){
+    .trawell-slot-l{
+        right: 14px;
+        left: auto;
+    }
+
+    .trawell-slot-r{
+        left: 14px;
+        right: auto;
+    }
+
+    .element-pos-bottom,  .trawell-layout-d1 .element-pos-bottom{
+        right: 20px;
+        left: auto;
+    }
+
+    .trawell-layout-d1 .entry-title,  .trawell-layout-d2 .entry-title{
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
+    .trawell-pagination a.next:after{
+        margin-left: -3px;
+        margin-right: 0;
+    }
+
+    .trawell-pagination a.prev:after{
+        margin-right: -3px;
+        margin-left: 0;
+    }
+
+    .trawell-numbers-meta{
+        margin-right: 5px;
+        margin-left: 0;
+    }
+
+    .trawell-footer .widget{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    body .sm-entry-meta-small span + span{
+        margin: 0 5px 0 0 ;
+    }
+
+    body .sm-entry-meta-small span + span:before{
+        margin-left: 5px;
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 439px){
+    .trawell-layout-cat-d2 .element-pos-bottom,  .trawell-layout-d3 .element-pos-bottom,  .trawell-layout-d4 .element-pos-bottom,  .trawell-has-sidebar .trawell-main .trawell-layout-d1 .element-pos-bottom,  .trawell-has-sidebar .trawell-main .trawell-layout-d2 .element-pos-bottom,  .trawell-has-sidebar .trawell-main .trawell-layout-d3 .element-pos-bottom,  .trawell-has-sidebar .trawell-main .trawell-layout-d4 .element-pos-bottom{
+        right: 20px;
+        left: auto;
+        padding-left: 0;
+    }
+
+    .comment-author img{
+        margin-left: 14px;
+        margin-right: 0;
+    }
+
+    .trawell-author .excerpt-small,  .comment-content,  .comment-reply-link{
+        margin-right: 0;
+    }
+
+    .trawell-numbers-meta{
+        margin-right: 0;
+    }
+
+    .trawell-layout-d2 .element-pos-bottom,  .trawell-layout-d3 .element-pos-bottom{
+        padding-left: 0;
+    }
+
+}
+
+@media (max-width: 376px){
+    body .sm-entry-meta-small span + span{
+        margin: 0 5px 0 0 ;
+    }
+
+    body .sm-entry-meta-small span + span:before{
+        margin-left: 5px;
+        margin-right: 0;
+    }
+
+}
+
+
+.trawell-woo-mod-right{
+    float: left;
+}
+
+.woocommerce .woocommerce-ordering, .woocommerce .woocommerce-result-count{
+    margin: 0 0 30px 10px ;
+}
+
+.woocommerce .widget_shopping_cart_content .buttons .button{
+    float: right;
+}
+
+.woocommerce .woocommerce-product-rating .star-rating{
+    margin: 10px 0 0 4px ;
+}
+
+.quantity.buttons_added{
+    float: right;
+}
+
+.quantity.buttons_added input[type=number]{
+    float: right;
+}
+
+.quantity.buttons_added .minus, .quantity.buttons_added .plus, .quantity.buttons_added .qty{
+    float: right;
+}
+
+.quantity.buttons_added .minus, .quantity.buttons_added .qty{
+    border-left: 1px solid #e4e4e4;
+    border-right: none;
+}
+
+.woocommerce-checkout #payment ul.payment_methods, .woocommerce table.shop_table, .woocommerce table.shop_table td, .woocommerce-cart .cart-collaterals .cart_totals tr td, .woocommerce-cart .cart-collaterals .cart_totals tr th, .woocommerce table.shop_table tbody th, .woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th, .woocommerce .order_details, .woocommerce .cart-collaterals .cross-sells, .woocommerce-page .cart-collaterals .cross-sells, .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals, .woocommerce .cart-collaterals h2, .woocommerce .cart-collaterals h2, .woocommerce ul.order_details, .woocommerce .shop_table.order_details tfoot th, .woocommerce .shop_table.customer_details th, .woocommerce-checkout #payment ul.payment_methods, .woocommerce .col2-set.addresses .col-1, .woocommerce .col2-set.addresses .col-2, .select2-container .select2-choice{
+    border-color: rgba(0, 0.1) 0, 0, ;
+}
+
+.woocommerce #respond input#submit.loading, .woocommerce a.button.loading, .woocommerce button.button.loading, .woocommerce input.button.loading{
+    padding-left: 1em;
+    padding-right: 0;
+}
+
+.woocommerce #respond input#submit.loading:after, .woocommerce a.button.loading:after, .woocommerce button.button.loading:after, .woocommerce input.button.loading:after{
+    left: auto;
+    right: auto;
+    margin-right: .53em;
+    margin-left: 0;
+}
+
+.woocommerce ul.products li.product .added_to_cart:after{
+    margin-right: .53em;
+    margin-left: 0;
+}
+
+.return-to-shop .button.wc-backward:before{
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.woocommerce .woocommerce-ordering{
+    float: left;
+}
+
+.woocommerce .woocommerce-result-count{
+    float: right;
+    margin: 11px 0 10px 10px ;
+}
+
+.woocommerce nav.woocommerce-pagination ul li{
+    border-left: none;
+    border-right: none;
+    margin: 0 0 4px 4px ;
+}
+
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message{
+    border-right: 1px solid rgba(0, 0, 0, 0.01);
+    border-left: 1px solid rgba(0, 0, 0, 0.01);
+    padding: 15px 40px 15px 15px !important;
+}
+
+.woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce .woocommerce-message:before{
+    right: 15px;
+    left: auto;
+}
+
+.woo-product-entry-slider.wpex-slider .sp-buttons{
+    right: auto;
+    left: 0;
+}
+
+.woocommerce span.onsale{
+    right: 10px;
+    left: auto;
+}
+
+.woocommerce ul.products li.product .onsale{
+    left: 10px;
+    right: auto;
+}
+
+.woocommerce ul.products li.product.outofstock .outofstock-badge{
+    right: 15px;
+    left: auto;
+}
+
+.woocommerce ul.products li.product .price del{
+    right: 10px;
+    left: auto;
+}
+
+body.woocommerce #content div.product div.images{
+    float: right;
+}
+
+.product-variation-thumbs a{
+    float: right;
+}
+
+body.woocommerce #content div.product div.summary{
+    float: left;
+}
+
+body.woocommerce #content div.product div.summary del{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+bodybody.woocommerce #content div.product form.cart .variations .reset_variations{
+    border-color: rgba(68, 0.2) 68, 68, ;
+    margin: 0 10px 0 0 ;
+}
+
+body.woocommerce #content div.product div.summary .single_add_to_cart_button .fa{
+    margin-right: 8px;
+    margin-left: 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li{
+    float: right;
+    margin: 0 0 0 20px ;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs::before{
+    right: 0;
+    left: auto;
+}
+
+body.woocommerce #content div.product form.cart div.quantity{
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+body.woocommerce #content div.product form.cart .variations .reset_variations{
+    float: right;
+}
+
+body.woocommerce #content div.product form.cart .variations .reset_variations:before{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.single_variation{
+    float: right;
+}
+
+body.woocommerce #content div.product .woocommerce-tabs ul.tabs li{
+    float: right;
+    margin: 0 0 0 20px ;
+}
+
+body.woocommerce #content div.product .woocommerce-tabs ul.tabs li a{
+    margin: -1px 0 0 0 ;
+}
+
+.woocommerce #review_form #respond p.form-submit{
+    margin: 20px 0 0 0 ;
+    float: right;
+}
+
+.woocommerce #reviews #commentform p.stars a{
+    border-color: rgba(0, 0.01) 0, 0, ;
+}
+
+.woocommerce .comment-form-rating{
+    float: right;
+}
+
+.woocommerce #review_form #respond p.comment-form-author{
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text{
+    margin: 0 80px 0 0 ;
+}
+
+.woocommerce #review_form_wrapper{
+    float: right;
+}
+
+.woocommerce .widget_price_filter .price_slider_amount .price_label{
+    float: right;
+    text-align: right;
+    margin: 7px 0 0 0 ;
+}
+
+.woocommerce .widget_price_filter .price_slider_amount .button{
+    float: left;
+}
+
+.woocommerce ul.product_list_widget li, .woocommerce .widget_shopping_cart .cart_list li, .woocommerce.widget_shopping_cart .cart_list li{
+    padding: 0 0 10px 0 ;
+    margin: 0 0 10px 0 ;
+}
+
+.woocommerce ul.product_list_widget li img{
+    float: right;
+    margin: 0 0 0 15px ;
+}
+
+.woocommerce .widget_shopping_cart_content .buttons .checkout{
+    float: left;
+}
+
+.woocommerce .widget_shopping_cart_content .buttons .wc-forward:after, .woocommerce .widget_shopping_cart_content .buttons .checkout:after{
+    margin-right: 8px;
+    margin-left: 0;
+}
+
+.woocommerce-product-search input[type="search"]{
+    padding: 0 10px 0 30px ;
+    border-radius: 0 2px 2px 0;
+}
+
+.woocommerce-product-search input[type="submit"]{
+    left: 0;
+    right: auto;
+}
+
+.woocommerce-cart .cart_item td:last-child, .woocommerce table.cart td.actions, .woocommerce-page #content table.cart td.actions, .woocommerce-page table.cart td.actions{
+    border-left: none;
+    border-right: none;
+}
+
+.woocommerce .quantity .qty{
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.woocommerce-cart table.cart td.actions .coupon .input-text{
+    margin: 0 0 0 8px ;
+}
+
+.woocommerce-cart table.cart td.actions input[name="update_cart"]{
+    float: left;
+}
+
+.woocommerce-cart table.cart td.actions .coupon{
+    float: right;
+}
+
+.woocommerce .cart-collaterals .related, .woocommerce-page .cart-collaterals .related{
+    float: right;
+}
+
+.woocommerce .cart-collaterals .cross-sells, .woocommerce-page .cart-collaterals .cross-sells{
+    float: right;
+}
+
+.woocommerce .cart-collaterals .shipping_calculator, .woocommerce-page .cart-collaterals .shipping_calculator{
+    clear: left;
+    float: left;
+}
+
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals{
+    float: left;
+}
+
+.woocommerce form.checkout_coupon .form-row-first{
+    float: right;
+}
+
+.woocommerce form.checkout_coupon .form-row-last{
+    float: left;
+}
+
+#add_payment_method #payment .payment_method_paypal .about_paypal, .woocommerce-cart #payment .payment_method_paypal .about_paypal, .woocommerce-checkout #payment .payment_method_paypal .about_paypal{
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.woocommerce-checkout-review-order-table tfoot th{
+    border-left: 1px solid rgba(0, 0, 0, 0.01);
+    border-right: none;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li{
+    text-align: right;
+}
+
+#add_payment_method #payment ul.payment_methods li input, .woocommerce-cart #payment ul.payment_methods li input, .woocommerce-checkout #payment ul.payment_methods li input{
+    margin: 0 0 0 5px ;
+}
+
+.woocommerce ul.order_details li{
+    border-color: rgba(0, 0.01) 0, 0, ;
+}
+
+.woocommerce .shop_table.order_details tfoot th, .woocommerce .shop_table.customer_details th{
+    border-left: 1px solid rgba(0, 0, 0, 0.01);
+    border-right: none;
+}
+
+.woocommerce .col2-set.addresses .col-1, .woocommerce .col2-set.addresses .col-2{
+    float: right;
+}
+
+.woocommerce .col2-set.addresses .col-2{
+    float: left;
+}
+
+.woocommerce-account address{
+    text-align: right;
+}
+
+#current-shop-items-dropdown{
+    left: 0;
+    right: auto;
+}
+
+.boxed-main-layout #current-shop-items-dropdown{
+    left: 30px;
+    right: auto;
+}
+
+.navbar-style-two li.woo-menu-icon{
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.01);
+    border-left: none;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+    margin: 0 0 2.992em 3.8%;   
+}
+.woocommerce ul.products li.last, .woocommerce-page ul.products li.last{
+    margin-right: 0;
+    margin-left: 0;
+}
+@media(max-width: 768px){
+    .woocommerce ul.products[class*=columns-] li.product:nth-child(2n), .woocommerce-page ul.products[class*=columns-] li.product:nth-child(2n){
+        margin-right: 0.9em;
+        margin-left: 0;
+    }
+
+}
+
+@media(max-width: 414px){
+    .woocommerce ul.products[class*=columns-] li.product:nth-child(2n), .woocommerce-page ul.products[class*=columns-] li.product:nth-child(2n), .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product{
+        float: right;
+    }
+
+}
+

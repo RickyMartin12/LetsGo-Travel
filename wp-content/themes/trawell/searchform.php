@@ -1,0 +1,2 @@
+<form class="trawell-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get"><input name="s" type="text" value="" placeholder="<?php echo esc_attr( __trawell('search_placeholder') ); ?>" /><button type="submit" class="trawell-button trawell-button-large"><?php echo esc_attr( __trawell('search_button') ); ?></button>
+</form>
